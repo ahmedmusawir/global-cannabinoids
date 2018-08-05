@@ -3,12 +3,7 @@
 =============================*/
 
 @import "bower_components/compass-sass-mixins/lib/compass";
-// @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-// @import "https://use.fontawesome.com/releases/v5.0.1/css/all.css";
-// @import "font-awesome-5/scss/fontawesome.scss";
-// @import "font-awesome-5/scss/fa-solid.scss";
-// @import "font-awesome-5/scss/fa-regular.scss";
-// @import "font-awesome-5/scss/fa-brands.scss";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "custom.scss"; //Boostrap 4 Variable Override
 @import "bower_components/bootstrap/scss/bootstrap.scss";
 @import "slick-slider/slick.scss";
@@ -18,14 +13,11 @@
 /*=============================
 =            FONTS            =
 =============================*/
-// @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Tangerine:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-// $primary-font: 'Quicksand', serif;
-// $secondary-font: 'Quicksand', serif;
-
-$primary-font: 'Tangerine', cursive;
-$secondary-font: 'Philosopher', sans-serif;
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Quicksand', serif;
 
 /*=====  End of FONTS  ======*/
 
@@ -63,7 +55,7 @@ body {
 	}
 
 	h1,h2,h3,h4,h5 {
-		color: lighten($cg-secondary, 15%);
+		color: lighten($cg-secondary, 0%);
 		padding-top: .25rem;
 		padding-bottom: .25rem;
 		font-family: $primary-font; 
@@ -119,10 +111,10 @@ img {
 }
 a {
 	text-decoration: none !important;
-	color: lighten($cg-secondary, 10%);
+	color: lighten($cg-secondary, 0%);
 
 	&:hover {
-		color: lighten($cg-secondary, 20%);
+		color: lighten($cg-secondary, 5%);
 	}
 }
 

@@ -5,8 +5,8 @@
 /*==============================
 =            COLORS            =
 ==============================*/
-$cg-primary: #26664d; //darkslategreen
-$cg-secondary: #956d33; //sienna
+$cg-primary: #4C4C4C; //green
+$cg-secondary: #009D29; //dark gray
 $cg-third: #302968; //midnightblue
 $cg-extra-1: #e7d7bc; //wheat
 $cg-contact-bg: #362f29; //dark brown
@@ -31,7 +31,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 
 
-$body-bg: $cg-extra-1;
+// $body-bg: $cg-extra-1;
 
 /*=====  End of COLORS  ======*/
 
@@ -43,16 +43,16 @@ $body-bg: $cg-extra-1;
 
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
  
-$h1-font-size:                $font-size-base * 3.5;
-// $h1-font-size:                $font-size-base * 2.5;
-$h2-font-size:                $font-size-base * 3;
-// $h2-font-size:                $font-size-base * 2;
-$h3-font-size:                $font-size-base * 2.5;
-// $h3-font-size:                $font-size-base * 1.75;
-$h4-font-size:                $font-size-base * 2.25;
-// $h4-font-size:                $font-size-base * 1.5;
-$h5-font-size:                $font-size-base * 1.75;
-// $h5-font-size:                $font-size-base * 1.25;
+// $h1-font-size:                $font-size-base * 3.5;
+$h1-font-size:                $font-size-base * 2.5;
+// $h2-font-size:                $font-size-base * 3;
+$h2-font-size:                $font-size-base * 2;
+// $h3-font-size:                $font-size-base * 2.5;
+$h3-font-size:                $font-size-base * 1.75;
+// $h4-font-size:                $font-size-base * 2.25;
+$h4-font-size:                $font-size-base * 1.5;
+// $h5-font-size:                $font-size-base * 1.75;
+$h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base;	
 
 

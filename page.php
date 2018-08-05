@@ -25,7 +25,7 @@ get_header(); ?>
 	</style>
 
 	<section id="general-page-header">
-		<img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg">
+		<!-- <img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg"> -->
 	</section>
 
 	<div id="primary" class="content-area container">

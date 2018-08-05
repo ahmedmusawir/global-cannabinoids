@@ -14,7 +14,10 @@
 
 		<figure class="featured-image-box">
 			
-			<?php moose_framework_2_post_thumbnail(); ?>
+			<?php //moose_framework_2_post_thumbnail('full'); ?>
+			<a href="<?php the_permalink(); ?>">
+				<?php the_post_thumbnail('full'); ?>
+			</a>
 			
 		</figure>
 		<?php
