@@ -16,7 +16,7 @@
 	<footer id="footer-mfw-001" class="site-footer">
 
 
-		<div class="container widgets_wrapper">
+		<div class="container widgets_wrapper d-none">
 		   <div class="row">
 		      <div class="col-sm-4">
 

@@ -25,33 +25,11 @@
 <div id="page" class="site">
 	<!-- <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'moose-framework-2' ); ?></a> -->
 
-	<section id="top-toolbar" class="container-fluid">
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-6 address">123 Home St. Los Angeles CA 00101</div>
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					
-					<section class="float-right">
-						<div class="search-box d-flex align-content-end">
-							<div class="login-link col-3 align-self-center"><a href="#">Log in/Register</a></div>
-							<div class="search col-9 d-flex align-self-center">
-								<i class="fas fa-search"></i><?php echo get_search_form(); ?>
-							</div>
-						</div>	
-					</section>
-					
-				</div>
-			</div>
-		</div>
-		
-	</section>
-
-	<header id="header-mfw-002" class="site-header">
+	<header id="header-mfw-001" class="site-header">
 
 		<!-- Moose_Framework_2 NAVIGATION GOES HERE -->
 		<nav class="navbar navbar-expand-xl fixed-top">
-			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="/wp-content/uploads/2018/08/Canibus-Logo-243x111.jpg"></a>
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="/wp-content/uploads/2018/02/LaCasa-Logo-150x100.jpg"></a>
 			<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="<?php esc_html_e( 'Toggle Navigation', 'theme-textdomain' ); ?>">
 				<span class="navbar-toggler-icon"></span>
 			</button>

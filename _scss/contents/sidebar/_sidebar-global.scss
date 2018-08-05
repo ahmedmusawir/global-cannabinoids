@@ -43,18 +43,31 @@
 			padding-left: 0;
 
 			li {
+ 				border-bottom: 1px solid $cg-secondary;					
+ 				padding-top: .5rem;
+ 				padding-bottom: .5rem;
+ 				padding-left: .2rem;
+
+ 				&:hover {
+					// text-decoration: underline !important;
+					color: white;
+					background-color: $cg-secondary;
+
+					a {
+						color: white;
+					}
+				}
+
 				&::before {
-					font-family: 'FontAwesome';
- 					content: "\f1de";
- 					color: $cg-secondary;
- 					padding-right: .5rem;
- 					padding-left: .5rem;					
+					// font-family: 'FontAwesome';
+ 					// content: "\f1de";
+ 					// color: $cg-secondary;
+ 					// padding-right: .5rem;
+ 					// padding-left: .5rem;
 				}
 				a {
 					font-size: .9rem;
-					&:hover {
-						text-decoration: underline !important;
-					}
+
 				}
 			}
 		}

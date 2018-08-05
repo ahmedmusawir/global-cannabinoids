@@ -35,7 +35,7 @@ if ( ! function_exists( 'moose_framework_2_setup' ) ) :
 		 */
 		add_theme_support( 'title-tag' );
 
-		add_image_size( 'blog-header', 1600, 300, true );
+		add_image_size( 'blog-header', 1600, 400, true );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
@@ -153,7 +153,7 @@ function moose_framework_2_scripts() {
 	wp_enqueue_style( 'moose-framework-2-style', get_stylesheet_uri(), '', 1.0 );
 
    // Hack to stop wordpress from loading jQuery in the head of the page
-   wp_deregister_script( 'jquery' );	
+   // wp_deregister_script( 'jquery' );	
 
 	//MOOSE FRAMEWORK 2.0 JAVASCRIPTS UNIFIED AND MINIFIED
 	wp_enqueue_script( 'moose-framework-2-main', get_template_directory_uri() . '/js/main.min.js', array(), '20151215', true );

@@ -5,6 +5,7 @@
 @import "global";
 @import "wp_default";
 @import "contents/single-global";
+@import "contents/page-global";
 @import "contents/404-page/404-page";
 @import "contents/sidebar/sidebar-global";
 @import "footers/footer-general";
@@ -15,7 +16,8 @@
 =            HEADER & FOOTER            =
 =======================================*/
 
-@import "headers/header-mfw-001";
+@import "headers/header-mfw-002";
+// @import "headers/header-mfw-001";
 @import "footers/footer-mfw-001";
 
 

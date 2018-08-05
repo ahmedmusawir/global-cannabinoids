@@ -5,6 +5,8 @@
  */
 
 #post-mfw-002 {
+	margin-top: -90px !important; //Exactly the negative height of #main at page-global.scss
+
 	@media (min-width: 1000px) {
 		padding-right: 3rem;
 	}

@@ -19,7 +19,7 @@ $img = wp_get_attachment_image_url($img_id, 'blog-header');
 
 <style type="text/css">
 #header-img {
-	height: 30vh;
+	height: 40vh;
 	background: url("<?php echo $img; ?>") no-repeat top center;
 
 	  -webkit-background-size: 100%;
@@ -33,7 +33,7 @@ $img = wp_get_attachment_image_url($img_id, 'blog-header');
 
 @media (max-width: 1600px) {
 	#header-img {
-		/*height: 40vh;*/
+		height: 40vh;
 	}
 }
 @media (max-width: 1500px) {
@@ -41,22 +41,17 @@ $img = wp_get_attachment_image_url($img_id, 'blog-header');
 		height: 30vh;
 	}
 }
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
 	#header-img {
 		height: 20vh;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 	#header-img {
 		height: 15vh;
 	}
 }
-@media (max-width: 600px) {
-	#header-img {
-		height: 10vh;
-	}
-}
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 	#header-img {
 		height: 8vh;
 	}

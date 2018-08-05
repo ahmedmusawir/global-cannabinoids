@@ -14,9 +14,17 @@
    	}
 }
 
+#page {
+	#content {
+		#main {
+			padding-top: 90px; //Due to the Navbar height of 120px
+
+		}
+	}
+}
+
 .content-area {
-	// border: 1rem solid red;
-	// padding-top: 3rem;
+	padding-top: 3rem;
 	padding-bottom: 4rem;
 
 	@media (max-width: 800px) {
