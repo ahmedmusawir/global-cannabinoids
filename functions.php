@@ -36,6 +36,7 @@ if ( ! function_exists( 'moose_framework_2_setup' ) ) :
 		add_theme_support( 'title-tag' );
 
 		add_image_size( 'blog-header', 1600, 400, true );
+		add_image_size( 'blog-header-medium', 800, 400, true );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.

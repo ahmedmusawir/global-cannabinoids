@@ -17,23 +17,13 @@
 #page {
 	#content {
 		#main {
-			padding-top: 90px; //Due to the Navbar height of 120px
+			padding-top: 150px; //Due to the Navbar height of 120px
+			// padding-top: 90px; //Due to the Navbar height of 120px
+			@media (max-width: 450px) {
+				padding-top: 120px;
+			}
 
 		}
 	}
 }
 
-.content-area {
-	padding-top: 3rem;
-	padding-bottom: 4rem;
-
-	@media (max-width: 800px) {
-		// border: 4px solid red;
-		img {
-			display: block;
-			clear: both;
-			width: 100%;
-			padding-bottom: 2rem;
-		}
-	}
-}

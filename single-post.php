@@ -18,48 +18,30 @@ $img = wp_get_attachment_image_url($img_id, 'blog-header');
 ?>
 
 <style type="text/css">
+
 #header-img {
-	height: 40vh;
-	background: url("<?php echo $img; ?>") no-repeat top center;
+	height: 400px;
+	background: url("<?php echo $img; ?>") no-repeat center center;
 
-	  -webkit-background-size: 100%;
+	  -webkit-background-size: cover;
 
-	  -moz-background-size: 100%;
+	  -moz-background-size: cover;
 
-	  -o-background-size: 100%;
+	  -o-background-size: cover;
 
-	  background-size: 100%;	
+	  background-size: cover;	
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 450px) {
 	#header-img {
-		height: 40vh;
+		height: 300px;
 	}
 }
-@media (max-width: 1500px) {
-	#header-img {
-		height: 30vh;
-	}
-}
-@media (max-width: 1000px) {
-	#header-img {
-		height: 20vh;
-	}
-}
-@media (max-width: 700px) {
-	#header-img {
-		height: 15vh;
-	}
-}
-@media (max-width: 500px) {
-	#header-img {
-		height: 8vh;
-	}
-}	
+
 </style>
 <figure id="header-img">
 	
-	<!-- <img src="<?php echo wp_get_attachment_image_url($img_id, 'blog-header'); ?>"> -->
+	<!-- <img class="d-block d-md-none d-lg-none"> src="<?php echo wp_get_attachment_image_url($img_id, 'blog-header-medium'); ?>"> -->
 	
 </figure>
 
