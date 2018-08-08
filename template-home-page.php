@@ -16,34 +16,56 @@ get_header(); ?>
 
 <section id="SECTION-1">
 					
-	<?php //get_template_part( '_mfw-modules/hero-block-mfw-001' ); ?>
-	<?php get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-001' ); ?>
+	<?php get_template_part( '_mfw-modules/hero-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 
 <section id="SECTION-2">
 
-	<?php //get_template_part( '_mfw-modules/hero-story-block-mfw-001' ); ?>
-	<?php get_template_part( '_mfw-modules-ACF/hero-story-block-mfw-ACF-001' ); ?>
+	<?php get_template_part( '_mfw-modules/youtube-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/hero-story-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 
 <section id="SECTION-3">
 
-	<?php // get_template_part( '_mfw-modules/info-block-mfw-001' ); ?>
-	<?php get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-001' ); ?>
+	<?php get_template_part( '_mfw-modules/dark-list-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 
 <section id="SECTION-4">
 
-	<?php //get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
-	<?php get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	<?php get_template_part( '_mfw-modules/gallery-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
+
+<section id="SECTION-5">
+
+	<?php get_template_part( '_mfw-modules/blog-post-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-6">
+
+	<?php get_template_part( '_mfw-modules/dark-info-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-7">
+
+	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
 
 <?php
 get_footer();

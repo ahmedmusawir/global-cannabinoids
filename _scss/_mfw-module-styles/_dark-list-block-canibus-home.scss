@@ -1,0 +1,75 @@
+/**
+ *
+ * STYLES: dark-list-block-canibus-home
+ *
+ */
+
+.dark-list-block-canibus-home {
+	// border: 1rem solid red;
+	background-color: $cg-primary;
+
+	#main-content {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+
+		.block-title {
+			text-align: center;
+		}
+
+		.list-box {
+			color: white;
+			padding-top: 5rem;
+			padding-left: 5rem;
+			// border: 1px solid white;
+			
+			@media (min-width: 768px) {
+				padding-left: 0;
+				// border: 3px solid yellow;
+			}
+			@media (min-width: 992px) {
+				padding-left: 5rem;
+				// border: 3px solid hotpink;
+			}
+		}	
+		
+	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
