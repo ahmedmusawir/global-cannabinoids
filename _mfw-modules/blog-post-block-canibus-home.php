@@ -11,9 +11,11 @@
 	<article id="main-content" class="">
 		<section class="container">
 
-			<h1 class="block-title text-center">
-				Bulk CBD and Wholesale CBD Oil & Products for Sale
-			</h1>
+			<div class="header-holder col-md-8 col-lg-8 mx-auto">
+				<h1 class="block-title text-center">
+					Bulk CBD and Wholesale CBD Oil & Products for Sale
+				</h1>				
+			</div>
 			<div class="flex-container">
 				<!-- <figure class="flex-item"> -->
 					<!-- <div class="item wow fadeIn"> -->
