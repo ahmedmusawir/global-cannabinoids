@@ -1,0 +1,72 @@
+/**
+ *
+ * STYLES: dark-header-2-info-block-canibus-home
+ *
+ */
+
+.dark-header-2-info-block-canibus-home {
+	// border: 1rem solid red;
+	padding-bottom: 5rem;
+
+	.dark-header {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		background-color: $cg-primary;
+
+		.block-title {
+			// padding-right: 2rem;
+			// padding-left: 2rem;
+
+			@media (max-width: 450 ) {
+				font-size: 1.7rem;
+			}
+
+		}
+	}
+
+	#main-content {
+
+		.row {
+			padding-top: 4rem;		
+		}
+	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

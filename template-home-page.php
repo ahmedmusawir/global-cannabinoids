@@ -66,9 +66,31 @@ get_header(); ?>
 	
 </section>
 
-<section id="SECTION-5">
+<section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/blog-post-block-canibus-home' ); ?>
+	<?php get_template_part( '_mfw-modules/usmap-info-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-4">
+
+	<?php get_template_part( '_mfw-modules/subscription-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-7">
+
+	<?php get_template_part( '_mfw-modules/magazine-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+
+<section id="SECTION-7">
+
+	<?php get_template_part( '_mfw-modules/dark-header-info-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
@@ -76,6 +98,20 @@ get_header(); ?>
 <section id="SECTION-6">
 
 	<?php get_template_part( '_mfw-modules/dark-info-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-5">
+
+	<?php get_template_part( '_mfw-modules/blog-post-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-7">
+
+	<?php get_template_part( '_mfw-modules/dark-header-2-info-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
@@ -89,45 +125,51 @@ get_header(); ?>
 
 <section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php get_template_part( '_mfw-modules/social-proof-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+	
+</section>
+
+<section id="SECTION-4">
+
+	<?php get_template_part( '_mfw-modules/subscription-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 <section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php get_template_part( '_mfw-modules/disclaimer-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 <section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 <section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 <section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
+	<?php //get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
 	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
-<section id="SECTION-7">
 
-	<?php get_template_part( '_mfw-modules/general-block-canibus-home' ); ?>
-	<?php //get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
-	
-</section>
+
+
+
+
 
 <?php
 get_footer();

@@ -22,8 +22,6 @@
 
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ET_b78GSBUs"></iframe>
 
-								<!-- <iframe width="854" height="480" src="https://www.youtube.com/embed/SfvQPZHp10c" frameborder="0" allowfullscreen></iframe> -->
-
 							</div>
 							
 						</article> <!-- END HERO INFO BOX -->
