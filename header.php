@@ -36,7 +36,7 @@
 						<div class="search-box d-flex align-content-end">
 							<div class="login-link col-3 align-self-center"><a href="#">Log in/Register</a></div>
 							<div class="search col-9 d-flex align-self-center">
-								<i class="fas fa-search"></i><?php echo get_search_form(); ?>
+								<i class="fa fa-search"></i><?php echo get_search_form(); ?>
 							</div>
 						</div>	
 					</section>

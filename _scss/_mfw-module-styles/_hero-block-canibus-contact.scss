@@ -1,0 +1,86 @@
+/**
+ *
+ * STYLES: hero-block-canibus-contact
+ *
+ */
+
+.hero-block-canibus-contact {
+	// border: 1rem solid red;
+
+	#hero-content {
+	 	height: 700px;
+		@media (min-width: 700px) {
+	 		
+	 		height: 900px;
+	 		padding-top: 5rem;
+			
+		}
+	}
+
+ 	.hero-info-box {
+		// border: 1px solid red;
+		padding-top: 3rem;
+		font-family: $primary-font;
+		@include border-top-left-radius(45px);
+		@include border-bottom-right-radius(45px);
+		color: lighten($cg-secondary, 20%);
+		
+		.block-title {
+			color: white;
+		}
+		.lead {
+			color: lighten($cg-secondary, 20%);
+			padding-bottom: 3rem;
+			font-size: 1.5rem;
+			font-weight: 500;
+			line-height: 2.5rem;
+			color: white;
+
+			@media (max-width: 350px) {
+				font-size: 1.5rem;
+			}
+			@media (min-width: 700px) {
+		 		
+			}
+		}
+ 	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
